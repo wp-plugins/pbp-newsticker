@@ -25,7 +25,7 @@ Create as many news tickers as you want and display them using shortcodes, widge
 * Create tickers from latest RSS feeds.
 * Create tickers with latest Post from Facebook.
 
-Created By: www.projoktibangla.net
+Created By: http://goo.gl/A19BZn
 
 == Installation ==
 
