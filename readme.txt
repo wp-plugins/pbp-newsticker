@@ -3,7 +3,7 @@ Contributors: projoktibangla
 tags: newsticker
 Requires at least: 3.0.1
 Tested up to: 4.0
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,7 +51,12 @@ Any problem, just mail us. email- projoktibangla@gmail.com
 = 1.0 =
 First Release
 
+= 1.1 =
+Bug fixed
 == Upgrade Notice ==
 
 = 1.0 =
 First Release
+
+= 1.1 =
+Bug fixed
