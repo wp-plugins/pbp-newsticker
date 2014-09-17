@@ -63,7 +63,7 @@ class pbpNewsticker_Bootstrap {
         self::$settings = get_option('pbpNewsticker');
         
         // Include required files
-        require_once( 'pbpNewsticker.class.php' );
+        require_once( 'pbpnewsticker.class.php' );
         require_once( 'widget.class.php' );
         require_once( 'data_source.class.php' );
         require_once( 'data_sources/recent_posts.class.php' );
