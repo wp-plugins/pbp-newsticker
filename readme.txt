@@ -53,6 +53,10 @@ First Release
 
 = 1.1 =
 Bug fixed
+
+= 1.2 =
+Little Update
+
 == Upgrade Notice ==
 
 = 1.0 =
@@ -60,3 +64,6 @@ First Release
 
 = 1.1 =
 Bug fixed
+
+= 1.2 =
+Little Update
