@@ -93,11 +93,13 @@ Stylesheet: Admin-area styles for pbpNewsticker
 .settings_page_pbpNewsticker .title_wrap h3 {
     padding: 12px;
     margin-bottom: 0;
+	color: #fff;
 }
 
 .settings_page_pbpNewsticker .title_wrap h4 {
     padding: 8px 10px;
     margin: 0;
+	color: #fff;
 }
 
 .settings_page_pbpNewsticker .title_wrap .remove-instance {

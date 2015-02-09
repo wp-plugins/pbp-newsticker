@@ -269,7 +269,7 @@ class pbpNewsticker {
         <?php endif ?>
 
         <div class="title_wrap">
-            <h3><?php $is_update ? _e('Update newsticker', 'pbpNews') : _e('Create a newsticker', 'pbpNews') ?></h3>
+            <h3><?php $is_update ? _e('Update Newsticker', 'pbpNews') : _e('Create a Newsticker', 'pbpNews') ?></h3>
         </div>
 
         <form method="post" action="<?php echo admin_url('options-general.php?page=pbpNewsticker') ?>" class="newsticker_form">
@@ -330,7 +330,7 @@ class pbpNewsticker {
             <h4><?php _e('General Formatting', 'pbpNews') ?></h4>
             <div>
                 <label for="pbpNews_time_ago_format"><?php _e('Time since post format', 'pbpNews') ?></label>
-                <input type="text" name="timeAgoFormat" id="pbpNews_time_ago_format" value="<?php echo $this->get_value('timeAgoFormat') ?>" />
+                <input type="text" name="timeAgoFormat" id="pbpNews_time_ago_format" value="<?php echo $this->get_value('timeAgoFormat') ?>"  />
                 <span class="pbpNews_assist"><?php _e('How to format the %timeago% variable.', 'pbpNews') ?></span>
             </div>
             <div>
@@ -338,7 +338,8 @@ class pbpNewsticker {
                 <input type="text" name="dateFormat" id="pbpNews_date_format" value="<?php echo $this->get_value('dateFormat') ?>" />
                 <span class="pbpNews_assist"><?php _e('How to format the %date% variable.', 'pbpNews') ?></span>
             </div>
--->                      
+-->
+
             <div class="hidden pbpNews_fade_settings pbpNews_animation_settings">                
                 <h4><?php _e('Fade Animation Settings', 'pbpNews') ?></h4>                
                 <div>
@@ -395,7 +396,7 @@ class pbpNewsticker {
                     <span class="pbpNews_assist"><?php _e('The easing function used to slide between news items. jQuery comes with two available easing functions: <em>swing</em> and <em>linear</em>.', 'pbpNews') ?></span>
                 </div>                
             </div>
-            
+           
             <h4><?php _e('Data Sources', 'pbpNews') ?></h4>
             
             <?php foreach ( $this->data_sources as $class_name ) : ?>
@@ -426,7 +427,7 @@ class pbpNewsticker {
             <?php endforeach ?>
             
             <div class="button-container">
-                <input type="submit" value="<?php _e('Save pbpNewsticker') ?>" class="button-primary" name="save_pbpNewsticker" />
+                <input type="submit" value="<?php _e('Save Newsticker') ?>" class="button-primary" name="save_pbpNewsticker" />
             </div>
 
         </form>

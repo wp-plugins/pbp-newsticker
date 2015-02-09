@@ -1,5 +1,5 @@
 /**
-"Dark" skin for PBP News ticker
+"Green" skin for PBP News ticker
 
 **/
 
@@ -14,7 +14,7 @@
 .newsticker_wrapper h4{
 	color:#fff;
 	height:30px;
-	background-color:#000;
+	background-color:#158612;
 	overflow: hidden;
 	padding:0 14px 0 11px;
 	margin:0 11px 0 0;
