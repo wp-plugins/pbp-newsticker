@@ -3,7 +3,7 @@
 Plugin Name: PBP Newsticker
 Plugin URI: http://projoktibangla.net
 Description: Create as many news tickers as you want and display them using shortcodes, widgets or PHP.
-Version: 1.3
+Version: 1.3.1
 Author: projoktibangla
 Author URI: http://projoktibangla.net
 */
@@ -491,7 +491,7 @@ class pbpNewsticker_Bootstrap {
 
             <?php endif ?>
 			
-			<span style="color:red; font-size:15px;">We will publish "PBP Newsticker PRO" with some exclusive feature recently. Please wait for us. Thank you.</span>
+			<span style="color:red; font-size:15px;"><br/> </br>We will publish "PBP Newsticker PRO" with some exclusive feature recently. Please wait for us. Thank you.</span>
         </div>            
         <?php
     }

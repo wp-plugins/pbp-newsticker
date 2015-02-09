@@ -3,7 +3,7 @@ Contributors: projoktibangla
 tags: newsticker
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.3
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,28 +53,28 @@ Create as many Newstickers as you want and display them using shortcodes, widget
 Any problem, just mail us. email- projoktibangla@gmail.com 
 
 == Changelog ==
-= 1.0 =
-First Release
-
-= 1.1 =
-Bug fixed
+= 1.3.1 =
+New skin item added.
 
 = 1.2 =
 Little Update
 
-= 1.3 =
-New skin item added.
+= 1.1 =
+Bug fixed
+
+= 1.0 =
+First Release
+
 
 == Upgrade Notice ==
-
-= 1.0 =
-First Release
-
-= 1.1 =
-Bug fixed
+= 1.3.1 =
+New skin item added.
 
 = 1.2 =
 Little Update
 
-= 1.3 =
-New skin item added.
+= 1.1 =
+Bug fixed
+
+= 1.0 =
+First Release
