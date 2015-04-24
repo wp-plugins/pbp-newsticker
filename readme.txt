@@ -2,8 +2,8 @@
 Contributors: projoktibangla	
 tags: newsticker
 Requires at least: 3.0.1
-Tested up to: 4.1
-Stable tag: 1.3.1
+Tested up to: 4.2
+Stable tag: 1.3.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,11 @@ Create as many Newstickers as you want and display them using shortcodes, widget
 Any problem, just mail us. email- projoktibangla@gmail.com 
 
 == Changelog ==
+
+= 1.3.2 =
+* Compitable with WP 4.2 version.
+* Minor Bug Fixed.
+
 = 1.3.1 =
 New skin item added.
 
@@ -67,6 +72,11 @@ First Release
 
 
 == Upgrade Notice ==
+
+= 1.3.2 =
+* Compitable with WP 4.2 version.
+* Minor Bug Fixed.
+
 = 1.3.1 =
 New skin item added.
 

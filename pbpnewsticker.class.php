@@ -437,8 +437,6 @@ class pbpNewsticker {
             <div class="title_wrap">
                 <h3><?php _e( 'Integration', 'pbpNews' ) ?></h3>
             </div>
-            <h4><?php _e( 'Widget', 'pbpNews' ) ?></h4>
-            <p><?php _e( sprintf( 'Add the <strong>Newsticker</strong> widget to a widget-ready area and select <strong>%s</strong>.',  $this->get_value('internalTitle') ), 'pbpNews' ) ?></p>
             <h4><?php _e( 'Shortcode', 'pbpNews' ) ?></h4>
             <code>[newsticker id=<?php echo $this->ticker_id ?>]</code>
             <h4><?php _e( 'PHP', 'pbpNews' ) ?></h4>

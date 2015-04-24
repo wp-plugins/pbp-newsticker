@@ -3,7 +3,7 @@
 Plugin Name: PBP Newsticker
 Plugin URI: http://projoktibangla.net
 Description: Create as many news tickers as you want and display them using shortcodes, widgets or PHP.
-Version: 1.3.1
+Version: 1.3.2
 Author: projoktibangla
 Author URI: http://projoktibangla.net
 */
@@ -64,7 +64,6 @@ class pbpNewsticker_Bootstrap {
         
         // Include required files
         require_once( 'pbpnewsticker.class.php' );
-        require_once( 'widget.class.php' );
         require_once( 'data_source.class.php' );
         require_once( 'data_sources/recent_posts.class.php' );
         require_once( 'data_sources/recent_comments.class.php' );
@@ -80,7 +79,6 @@ class pbpNewsticker_Bootstrap {
         add_action( 'admin_init', array(&$this, 'admin_init'));
         add_action( 'wp_enqueue_scripts', array(&$this, 'enqueue_scripts') );
         add_action( 'admin_enqueue_scripts', array(&$this, 'admin_enqueue_scripts') );
-        add_action( 'widgets_init', array(&$this, 'register_widget') );
         add_action( 'admin_menu', array(&$this, 'admin_menu') );
         add_action( 'wp_ajax_create_data_source_instance', array(&$this, 'create_data_source_instance'));
 
@@ -291,13 +289,6 @@ class pbpNewsticker_Bootstrap {
         }
     }    
 
-    /**
-     * Register news ticker widget
-     * @return void
-     */
-    public function register_widget() {   
-        register_widget( 'pbpNewsticker_Widget' );
-    }    
 
     /**
      * Newsticker shortcode
