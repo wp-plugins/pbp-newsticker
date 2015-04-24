@@ -1,0 +1,652 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PBP Newsticker\n"
+"POT-Creation-Date: 2014-09-25 20:43+0600\n"
+"PO-Revision-Date: 2014-09-25 20:43+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: data_source.class.php:178
+#, php-format
+msgid "Add another %s"
+msgstr ""
+
+#: data_source.class.php:220
+msgid "Remove"
+msgstr ""
+
+#: data_source.class.php:434
+msgid "Formatting"
+msgstr ""
+
+#: data_source.class.php:440
+#, php-format
+msgid "Available variables: %s"
+msgstr ""
+
+#: data_sources/facebook.class.php:17
+msgid "Facebook Page"
+msgstr ""
+
+#: data_sources/facebook.class.php:19
+msgid "Displays most items from a Facebook page"
+msgstr ""
+
+#: data_sources/facebook.class.php:23 data_sources/rss.class.php:28
+msgid "Display name of author"
+msgstr ""
+
+#: data_sources/facebook.class.php:27 data_sources/rss.class.php:36
+msgid "Display excerpt of item"
+msgstr ""
+
+#: data_sources/facebook.class.php:31 data_sources/rss.class.php:40
+msgid "Display link to item"
+msgstr ""
+
+#: data_sources/facebook.class.php:35
+msgid "Display link to Facebook page"
+msgstr ""
+
+#: data_sources/facebook.class.php:39 data_sources/rss.class.php:44
+msgid "Display date item was posted"
+msgstr ""
+
+#: data_sources/facebook.class.php:43 data_sources/rss.class.php:48
+msgid "Display the time elapsd since the item was posted"
+msgstr ""
+
+#: data_sources/facebook.class.php:48 data_sources/twitter.class.php:52
+#, php-format
+msgid "%s posted on %s"
+msgstr ""
+
+#: data_sources/facebook.class.php:48
+msgid "Facebook"
+msgstr ""
+
+#: data_sources/facebook.class.php:152
+msgid "Facebook username"
+msgstr ""
+
+#: data_sources/facebook.class.php:159
+#: data_sources/recent_custom_post_types.class.php:64
+msgid "Number of items to display"
+msgstr ""
+
+#: data_sources/facebook.class.php:167
+#: data_sources/recent_comments.class.php:105
+#: data_sources/recent_posts.class.php:101 data_sources/rss.class.php:127
+#: data_sources/twitter.class.php:188
+msgid "Length of excerpt (words)"
+msgstr ""
+
+#: data_sources/facebook.class.php:175
+msgid "How many minutes should results be cached for?"
+msgstr ""
+
+#: data_sources/free_form.class.php:18
+msgid "Free Form News Item"
+msgstr ""
+
+#: data_sources/free_form.class.php:20
+msgid "Create your own news items"
+msgstr ""
+
+#: data_sources/free_form.class.php:44
+msgid "Text"
+msgstr ""
+
+#: data_sources/free_form.class.php:51
+msgid "Date"
+msgstr ""
+
+#: data_sources/recent_comments.class.php:23
+msgid "Recent Comments"
+msgstr ""
+
+#: data_sources/recent_comments.class.php:25
+msgid "Displays the most recent comments"
+msgstr ""
+
+#: data_sources/recent_comments.class.php:28
+msgid "Display comment author"
+msgstr ""
+
+#: data_sources/recent_comments.class.php:32
+msgid "Display excerpt of comment"
+msgstr ""
+
+#: data_sources/recent_comments.class.php:36
+#: data_sources/recent_posts.class.php:22
+msgid "Display post title"
+msgstr ""
+
+#: data_sources/recent_comments.class.php:40
+#: data_sources/recent_comments.class.php:44
+#: data_sources/recent_posts.class.php:34
+msgid "Display post URL"
+msgstr ""
+
+#: data_sources/recent_comments.class.php:48
+msgid "Display date comment was made"
+msgstr ""
+
+#: data_sources/recent_comments.class.php:52
+msgid "Display the time since the comment was made"
+msgstr ""
+
+#: data_sources/recent_comments.class.php:56
+#, php-format
+msgid "%s commented on %s"
+msgstr ""
+
+#: data_sources/recent_comments.class.php:89
+msgid "Number of comments to display"
+msgstr ""
+
+#: data_sources/recent_comments.class.php:97
+msgid "Include trackpacks and pingbacks"
+msgstr ""
+
+#: data_sources/recent_custom_post_types.class.php:17
+msgid "Recent Posts (Custom post types)"
+msgstr ""
+
+#: data_sources/recent_custom_post_types.class.php:19
+msgid "Displays the most recent items in one or more custom post types"
+msgstr ""
+
+#: data_sources/recent_custom_post_types.class.php:20
+#: data_sources/rss.class.php:32
+msgid "Display item title"
+msgstr ""
+
+#: data_sources/recent_custom_post_types.class.php:21
+msgid "Display item excerpt"
+msgstr ""
+
+#: data_sources/recent_custom_post_types.class.php:22
+msgid "Display item author"
+msgstr ""
+
+#: data_sources/recent_custom_post_types.class.php:23
+msgid "Display item URL"
+msgstr ""
+
+#: data_sources/recent_custom_post_types.class.php:24
+msgid "Display item post date"
+msgstr ""
+
+#: data_sources/recent_custom_post_types.class.php:25
+msgid "Display the time elapsed since the item was created"
+msgstr ""
+
+#: data_sources/recent_custom_post_types.class.php:78
+msgid "Post types"
+msgstr ""
+
+#: data_sources/recent_posts.class.php:17
+msgid "Recent Posts"
+msgstr ""
+
+#: data_sources/recent_posts.class.php:19
+msgid "Displays the most recent posts"
+msgstr ""
+
+#: data_sources/recent_posts.class.php:26
+msgid "Display post excerpt"
+msgstr ""
+
+#: data_sources/recent_posts.class.php:30
+msgid "Display post author"
+msgstr ""
+
+#: data_sources/recent_posts.class.php:38
+msgid "Display post date"
+msgstr ""
+
+#: data_sources/recent_posts.class.php:42
+msgid "Display the time elapsed since the post was created"
+msgstr ""
+
+#: data_sources/recent_posts.class.php:47 data_sources/rss.class.php:53
+#, php-format
+msgid "%s posted %s"
+msgstr ""
+
+#: data_sources/recent_posts.class.php:93
+msgid "Number of posts to display"
+msgstr ""
+
+#: data_sources/rss.class.php:22
+msgid "RSS Feed"
+msgstr ""
+
+#: data_sources/rss.class.php:24
+msgid "Displays most items from an RSS feed"
+msgstr ""
+
+#: data_sources/rss.class.php:112
+msgid "Feed URL"
+msgstr ""
+
+#: data_sources/rss.class.php:119
+msgid "Number of feed items to display"
+msgstr ""
+
+#: data_sources/rss.class.php:135
+msgid "How many minutes should feed results be cached for?"
+msgstr ""
+
+#: data_sources/twitter.class.php:16 data_sources/twitter.class.php:52
+msgid "Twitter"
+msgstr ""
+
+#: data_sources/twitter.class.php:18
+msgid "Displays most recent tweets"
+msgstr ""
+
+#: data_sources/twitter.class.php:20
+msgid "Add another Twitter feed"
+msgstr ""
+
+#: data_sources/twitter.class.php:23
+msgid "Display username"
+msgstr ""
+
+#: data_sources/twitter.class.php:27
+msgid ""
+"Display excerpt of tweet. Note that links are not preserved in excerpts."
+msgstr ""
+
+#: data_sources/twitter.class.php:31
+msgid "Display full tweet"
+msgstr ""
+
+#: data_sources/twitter.class.php:35
+msgid "Display link to Twitter profile"
+msgstr ""
+
+#: data_sources/twitter.class.php:39
+msgid "Display link to individual tweet"
+msgstr ""
+
+#: data_sources/twitter.class.php:43
+msgid "Display date tweet was made"
+msgstr ""
+
+#: data_sources/twitter.class.php:47
+msgid "Display the time elapsd since the tweet was made"
+msgstr ""
+
+#: data_sources/twitter.class.php:157
+msgid "Twitter username"
+msgstr ""
+
+#: data_sources/twitter.class.php:164
+msgid "Include retweets?"
+msgstr ""
+
+#: data_sources/twitter.class.php:172
+msgid "Include replies?"
+msgstr ""
+
+#: data_sources/twitter.class.php:180
+msgid "Number of tweets to display"
+msgstr ""
+
+#: data_sources/twitter.class.php:196
+msgid "How many minutes should tweets be cached for?"
+msgstr ""
+
+#: pbp-newsticker.php:317 pbp-newsticker.php:367
+msgid "pbpNewsticker"
+msgstr ""
+
+#: pbp-newsticker.php:333
+msgid "minutes ago"
+msgstr ""
+
+#: pbp-newsticker.php:333
+msgid "a minute ago"
+msgstr ""
+
+#: pbp-newsticker.php:338
+msgid "hours ago"
+msgstr ""
+
+#: pbp-newsticker.php:338
+msgid "an hour ago"
+msgstr ""
+
+#: pbp-newsticker.php:343
+msgid "days ago"
+msgstr ""
+
+#: pbp-newsticker.php:343
+msgid "yesterday"
+msgstr ""
+
+#: pbp-newsticker.php:388
+msgid "News ticker has been deleted."
+msgstr ""
+
+#: pbp-newsticker.php:392
+msgid "News ticker has been created"
+msgstr ""
+
+#: pbp-newsticker.php:396
+msgid "Skin has been updated"
+msgstr ""
+
+#: pbp-newsticker.php:411
+msgid "ID"
+msgstr ""
+
+#: pbp-newsticker.php:412
+msgid "Title"
+msgstr ""
+
+#: pbp-newsticker.php:413
+msgid "Style"
+msgstr ""
+
+#: pbp-newsticker.php:414
+msgid "Data sources"
+msgstr ""
+
+#: pbp-newsticker.php:421 pbp-newsticker.php:461
+msgid "+ Create news ticker"
+msgstr ""
+
+#: pbp-newsticker.php:429 widget.class.php:33
+msgid "None set"
+msgstr ""
+
+#: pbp-newsticker.php:444
+msgid "Edit"
+msgstr ""
+
+#: pbp-newsticker.php:450
+msgid "Delete"
+msgstr ""
+
+#: pbp-newsticker.php:460
+msgid "You haven't created any news tickers yet. Get started by creating one."
+msgstr ""
+
+#: pbp-newsticker.php:466
+msgid "None"
+msgstr ""
+
+#: pbp-newsticker.php:471
+msgid "General Options"
+msgstr ""
+
+#: pbp-newsticker.php:474
+msgid "Select skin:"
+msgstr ""
+
+#: pbp-newsticker.php:482
+msgid "Save"
+msgstr ""
+
+#: pbp-newsticker.php:503
+#, php-format
+msgid "No class with class name \"%s\" found"
+msgstr ""
+
+#: pbpnewsticker.class.php:247
+msgid "News ticker has been successfully updated"
+msgstr ""
+
+#: pbpnewsticker.class.php:258
+msgid "View all news tickers"
+msgstr ""
+
+#: pbpnewsticker.class.php:264
+msgid "Preview"
+msgstr ""
+
+#: pbpnewsticker.class.php:272
+msgid "Update newsticker"
+msgstr ""
+
+#: pbpnewsticker.class.php:272
+msgid "Create a newsticker"
+msgstr ""
+
+#: pbpnewsticker.class.php:281
+msgid "General Settings"
+msgstr ""
+
+#: pbpnewsticker.class.php:283
+msgid "Internal Title"
+msgstr ""
+
+#: pbpnewsticker.class.php:285
+msgid ""
+"The internal title for the newsticker. This is how you will identify it in "
+"the admin area."
+msgstr ""
+
+#: pbpnewsticker.class.php:288
+msgid "Title on ticker"
+msgstr ""
+
+#: pbpnewsticker.class.php:290
+msgid "The title for the newsticker. Leave blank for no title."
+msgstr ""
+
+#: pbpnewsticker.class.php:294
+msgid "Animation"
+msgstr ""
+
+#: pbpnewsticker.class.php:296
+msgid "Fade"
+msgstr ""
+
+#: pbpnewsticker.class.php:297
+msgid "Scroll"
+msgstr ""
+
+#: pbpnewsticker.class.php:298
+msgid "Reveal"
+msgstr ""
+
+#: pbpnewsticker.class.php:300
+msgid "The type of animation the newsticker uses."
+msgstr ""
+
+#: pbpnewsticker.class.php:303
+msgid "Display controls"
+msgstr ""
+
+#: pbpnewsticker.class.php:305
+msgid ""
+"Whether to display controls for manually pausing, resuming \n"
+"                  and moving to next and previous news items."
+msgstr ""
+
+#: pbpnewsticker.class.php:309
+msgid "Start animation automatically"
+msgstr ""
+
+#: pbpnewsticker.class.php:311
+msgid ""
+"Whether animation should start automatically when the newsticker \n"
+"                  is loaded."
+msgstr ""
+
+#: pbpnewsticker.class.php:316
+msgid "Sort news items"
+msgstr ""
+
+#: pbpnewsticker.class.php:318
+msgid "By date posted (newest items shown first)"
+msgstr ""
+
+#: pbpnewsticker.class.php:319
+msgid "By date posted (oldest items shown first)"
+msgstr ""
+
+#: pbpnewsticker.class.php:320
+msgid "Random"
+msgstr ""
+
+#: pbpnewsticker.class.php:322
+msgid "How to sort news items."
+msgstr ""
+
+#: pbpnewsticker.class.php:325
+msgid "Pause on hover"
+msgstr ""
+
+#: pbpnewsticker.class.php:327
+msgid ""
+"If checked, the animation will pause when the user hovers over the "
+"newsticker."
+msgstr ""
+
+#: pbpnewsticker.class.php:330
+msgid "General Formatting"
+msgstr ""
+
+#: pbpnewsticker.class.php:332
+msgid "Time since post format"
+msgstr ""
+
+#: pbpnewsticker.class.php:334
+msgid "How to format the %timeago% variable."
+msgstr ""
+
+#: pbpnewsticker.class.php:337
+msgid "Date of post format"
+msgstr ""
+
+#: pbpnewsticker.class.php:339
+msgid "How to format the %date% variable."
+msgstr ""
+
+#: pbpnewsticker.class.php:343
+msgid "Fade Animation Settings"
+msgstr ""
+
+#: pbpnewsticker.class.php:345
+msgid "Fade out speed"
+msgstr ""
+
+#: pbpnewsticker.class.php:347
+msgid "How fast a news item fades out, in milliseconds."
+msgstr ""
+
+#: pbpnewsticker.class.php:351
+msgid "Fade in speed"
+msgstr ""
+
+#: pbpnewsticker.class.php:353
+msgid "How fast a news item fades in, in milliseconds."
+msgstr ""
+
+#: pbpnewsticker.class.php:357 pbpnewsticker.class.php:373
+msgid "Speed of transition"
+msgstr ""
+
+#: pbpnewsticker.class.php:359 pbpnewsticker.class.php:375
+msgid ""
+"Length of time in milliseconds a news item is displayed before the next one."
+msgstr ""
+
+#: pbpnewsticker.class.php:364
+msgid "Reveal Animation Settings"
+msgstr ""
+
+#: pbpnewsticker.class.php:367
+msgid "Speed at which letters are revealed"
+msgstr ""
+
+#: pbpnewsticker.class.php:369
+msgid "How fast letters are revealed, in milliseconds."
+msgstr ""
+
+#: pbpnewsticker.class.php:380
+msgid "Scroll Animation Settings"
+msgstr ""
+
+#: pbpnewsticker.class.php:383
+msgid "Speed of scroll"
+msgstr ""
+
+#: pbpnewsticker.class.php:385
+msgid "Speed in milliseconds at which the scrolling action occurs."
+msgstr ""
+
+#: pbpnewsticker.class.php:388
+msgid "Speed of slide"
+msgstr ""
+
+#: pbpnewsticker.class.php:390
+msgid ""
+"Speed in milliseconds at which the slide between news items should occur."
+msgstr ""
+
+#: pbpnewsticker.class.php:393
+msgid "Easing function"
+msgstr ""
+
+#: pbpnewsticker.class.php:395
+msgid ""
+"The easing function used to slide between news items. jQuery comes with two "
+"available easing functions: <em>swing</em> and <em>linear</em>."
+msgstr ""
+
+#: pbpnewsticker.class.php:399
+msgid "Data Sources"
+msgstr ""
+
+#: pbpnewsticker.class.php:429
+msgid "Save pbpNewsticker"
+msgstr ""
+
+#: pbpnewsticker.class.php:437
+msgid "Integration"
+msgstr ""
+
+#: pbpnewsticker.class.php:439
+msgid "Widget"
+msgstr ""
+
+#: pbpnewsticker.class.php:441
+msgid "Shortcode"
+msgstr ""
+
+#: pbpnewsticker.class.php:443
+msgid "PHP"
+msgstr ""
+
+#: widget.class.php:14
+msgid ""
+"Add a newsticker style display of recent posts, comments, or various other "
+"potential news items"
+msgstr ""
+
+#: widget.class.php:17
+msgid "Newsticker"
+msgstr ""
+
+#: widget.class.php:29
+msgid "Select news ticker:"
+msgstr ""

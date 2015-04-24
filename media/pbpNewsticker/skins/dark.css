@@ -1,0 +1,96 @@
+/**
+"Dark" skin for PBP News ticker
+
+**/
+
+.newsticker_wrapper{
+	font:13px Arial,Helvetica,sans-serif;
+	color:#000;
+	line-height:30px;
+	height:30px;
+	/*border:1px solid #000;*/
+
+}
+.newsticker_wrapper h4{
+	color:#fff;
+	height:30px;
+	background-color:#000;
+	overflow: hidden;
+	padding:0 14px 0 11px;
+	margin:0 11px 0 0;
+	text-align: center;
+}
+
+.newsticker a{
+	color:#000;
+}
+.newsticker{
+	height:30px;
+	margin:0;
+	padding:0;
+	color:#000;
+}
+.newsticker li{
+	padding:0;
+	list-style-type:none!important;
+	list-style-image:none!important;
+	display:none;
+}
+.newsticker_wrapper .newsticker li{
+	display:block;
+}
+
+.newsticker_controls{
+	position:absolute;
+	right:15px;
+	top:0;
+	list-style-type:none;
+	list-style-image:none;
+	background-color:;
+	z-index:30;
+	margin:0;
+	padding-left:10px;
+}
+.newsticker_controls li{
+	float:left;
+	height:30px;
+	background-repeat:no-repeat;
+	background-color:;
+	cursor:pointer;
+}
+.newsticker_controls .previous,.newsticker_controls .next{
+	width:12px;
+}
+.newsticker_controls .pause,.newsticker_controls .resume{
+	width:13px;
+	padding:0 10px;
+	background-position:center;
+}
+.newsticker_controls .pause{
+	background-image:url('img/pause.png');
+}
+.newsticker_controls .resume{
+	background-image:url('img/resume.png');
+}
+.newsticker_controls .previous{
+	background-image:url('img/previous.png');
+	background-position:left center;
+}
+.newsticker_controls .next{
+	background-image:url('img/next.png');
+	background-position:right center;
+}
+
+/*
+.newsticker_style_reveal .newsticker li{
+	left:15px!important;
+}
+
+.newsticker_style_scroll .newsticker li{
+	margin-right:;
+	padding:0;
+}
+.newsticker_scroller{
+	margin:0 10px;
+}
+*/
